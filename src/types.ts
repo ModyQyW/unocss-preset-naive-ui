@@ -171,6 +171,13 @@ export interface PresetNaiveUiUserCommonOptions
    * @default '''
    */
   namespace?: string;
+  /**
+   * Breakpoints. Defaults to `{ xs: '0px', s: '640px', m: '1024px', l: '1280px', xl: '1536px', xxl:
+   * '1920px' }`.
+   *
+   * @default { xs: '0px', s: '640px', m: '1024px', l: '1280px', xl: '1536px', xxl: '1920px' }
+   */
+  breakpoints?: Record<string, string>;
 }
 
 export interface PresetNaiveUiUserOptions extends PresetNaiveUiUserCommonOptions {

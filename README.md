@@ -91,6 +91,12 @@ _Top-level Option_
 
 The namespace used to find css variables. Used when preferCssVariables is true. Defaults to ``.
 
+### breakpoints
+
+_Top-level Option_
+
+Breakpoints. Defaults to `{ xs: '0px', s: '640px', m: '1024px', l: '1280px', xl: '1536px', xxl: '1920px' }`.
+
 ### primary
 
 Base primary color. Used when `preferCssVariables` is false.
