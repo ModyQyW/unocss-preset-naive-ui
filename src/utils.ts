@@ -45,7 +45,7 @@ export const getTheme = (
   userOptions: PresetNaiveUiUserOptions,
   themeName: PresetNaiveUiThemeName,
 ): Theme => {
-  const { preferCssVariables = true, namespace = 'el' } = userOptions;
+  const { preferCssVariables = true, namespace = '' } = userOptions;
 
   const primary = preferCssVariables
     ? getThemeColorsWithCssVariables(namespace, 'primary')
