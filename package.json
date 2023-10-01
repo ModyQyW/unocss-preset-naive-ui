@@ -72,7 +72,7 @@
     "eslint": "^8.47.0",
     "is-ci": "^3.0.1",
     "lint-staged": "^13.3.0",
-    "markdownlint-cli": "^0.35.0",
+    "markdownlint-cli": "^0.37.0",
     "prettier": "^3.0.2",
     "publint": "^0.2.0",
     "simple-git-hooks": "^2.9.0",
